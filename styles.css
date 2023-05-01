@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f3eae3;
+}
+
+.main-page {
+  margin-top: 20px;
+  background-color: #f3eae3;
+  flex-direction: column;
+}
+.main-page .chanel-perfume {
+  border-radius: 7%;
+  width: 375px;
+  height: 300px;
+}
+.main-page span {
+  color: grey;
+  text-transform: uppercase;
+  padding: 15px;
+  padding-left: 0px;
+}
+.main-page h1 {
+  margin: 0;
+  font-size: 35px;
+  font-family: "Sigmar", cursive;
+  color: rgb(26, 26, 122);
+  font-weight: 200;
+}
+.main-page p {
+  letter-spacing: 2px;
+  color: grey;
+  padding: 10px;
+  font-family: "Rubik", sans-serif;
+  padding-left: 0px;
+}
+.main-page .background-color {
+  background-color: white;
+  border-radius: 7%;
+}
+.main-page .details-perfume {
+  display: flex;
+  flex-direction: column;
+}
+
+.margin {
+  padding: 10px;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+}
+.prices h2 {
+  color: #376f5a;
+  font-size: 30px;
+  font-family: "Sigmar", cursive;
+  font-weight: 200;
+}
+.prices div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.prices span {
+  color: grey;
+  margin-left: 15px;
+  text-decoration: line-through;
+}
+.prices button {
+  background-color: #376f5a;
+  height: 60px;
+  padding: 10px;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 40%;
+  border: none;
+  margin-bottom: 20px;
+}
+.prices .shopping-cart {
+  margin-right: 5px;
+}
+
+@media (min-width: 800px) {
+  .background-color {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+  .chanel-perfume {
+    display: flex;
+    flex: 1;
+    width: 418px;
+    height: 500px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
